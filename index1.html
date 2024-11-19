@@ -3,29 +3,131 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Rupali 's Portfolio</title>
+    <title>Rupali's Portfolio</title>
+    <style>
+        /* General Reset */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Arial', sans-serif;
+            background: linear-gradient(135deg, #ff758c, #ff7eb3);
+            color: #333;
+            padding: 20px;
+            text-align: center;
+            line-height: 1.6;
+        }
+
+        img {
+            width: 200px;
+            height: 200px;
+            object-fit: cover;
+            border-radius: 10px;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+            margin: 20px auto;
+            display: block;
+        }
+
+        pre {
+            background: rgba(255, 255, 255, 0.9);
+            padding: 20px 30px;
+            border-radius: 10px;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+            display: inline-block;
+            text-align: left;
+            font-size: 1.1rem;
+            line-height: 1.8;
+            max-width: 800px;
+            width: 90%;
+        }
+
+        b {
+            color: #ff6b6b;
+        }
+
+        a {
+            color: #3a86ff;
+            text-decoration: none;
+            font-weight: bold;
+            transition: color 0.3s ease-in-out;
+        }
+
+        a:hover {
+            color: #8338ec;
+        }
+
+        hr {
+            margin: 20px auto;
+            width: 80%;
+            border: 1px solid #ddd;
+        }
+
+        h1, h2, h3, h4, h5, h6 {
+            margin-bottom: 20px;
+            color: #fff;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+        }
+
+        /* Navigation Links */
+        pre a {
+            display: inline-block;
+            margin: 10px;
+            padding: 10px 15px;
+            background: #ff6b6b;
+            color: #fff;
+            border-radius: 5px;
+            box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
+            transition: all 0.3s ease-in-out;
+        }
+
+        pre a:hover {
+            background: #3a86ff;
+            transform: scale(1.1);
+            color: #fff;
+        }
+
+        /* Responsive Design */
+        @media (max-width: 600px) {
+            img {
+                height: 150px;
+            }
+
+            pre {
+                font-size: 0.95rem;
+                padding: 15px 20px;
+            }
+
+            pre a {
+                margin: 5px;
+                padding: 8px 10px;
+            }
+        }
+    </style>
 </head>
 <body>
-    <img src="rupali copy.jpeg" alt="Rupali Kumari" height ="200"> 
-    <pre>Hello There ! 
+    <img src="rupali copy.jpeg" alt="Rupali Kumari" height="200"> 
+    <pre>
+Hello There!
 This is <b>Rupali Kumari</b>
-<b>A Passionate Data Science & Algorithms Enthusiast</b>
-I am a Second Year student at National Institute of Technology jamshedpur
-I bring my competitive programming skills and data structure expertise to create efficient,
-scalable solutions. With a deep understanding of C++ and a knack for problem-solving, 
-I love tackling challenges in data science and algorithms. 
+<b><br>A Passionate Data Science &<br> Algorithms Enthusiast</b>
+<br>I am a Second Year student at<br>National Institute of Technology  Jamshedpur.
+I bring my competitive programming skills <br>scalable solutions. <br>With a deep understanding of C++ and a<br>knack for problem-solving, 
+I love tackling challenges in data science<br>and algorithms. 
 Let's build something innovative together!
 
-Explore my work - <a href ="https://github.com/Rupali-1394?tab=projects"> Rupali_github</a>
+Explore my work - <a href="https://github.com/Rupali-1394?tab=projects">Rupali_github</a>
 Visit my LinkedIn - <a href="https://www.linkedin.com/in/rupali-kumari-abba83266/">Rupali_LinkedIN</a>
 Contact me - +91 9142145434 
-</pre>
-<hr>
-Know more about Rupali's
-<pre>
+    </pre>
+    <hr>
+    <h3>Know more about Rupali's</h3>
+    <pre>
 <b><a href="edu.html">Education</a></b>
 <b><a href="projects.html">Projects</a></b>
-<b><a href="projects.html">Hobbies</a></b>
-</pre>
+<b><a href="hobbies.html">Hobbies</a></b>
+    </pre>
 </body>
 </html>
