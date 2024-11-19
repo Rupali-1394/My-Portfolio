@@ -3,15 +3,99 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Rupali's Hobbies</title>
+    <style>
+        /* General Reset */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Arial', sans-serif;
+            background: linear-gradient(135deg, #ff7eb3, #ff758c);
+            color: #333;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            padding: 20px;
+        }
+
+        h2 {
+            text-align: center;
+            font-size: 2.5rem;
+            color: #ffffff;
+            text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+            margin-bottom: 20px;
+        }
+
+        pre {
+            background: rgba(255, 255, 255, 0.8);
+            padding: 20px 30px;
+            border-radius: 10px;
+            box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.2);
+            font-size: 1.1rem;
+            line-height: 1.6;
+            overflow-x: auto;
+            color: #444;
+            max-width: 800px;
+            width: 100%;
+        }
+
+        h3 {
+            color: #ff6b6b;
+            font-size: 1.5rem;
+            margin-bottom: 10px;
+            transition: color 0.3s ease-in-out;
+        }
+
+        i, b {
+            color: #333;
+        }
+
+        /* Hover effect for hobby headings */
+        h3:hover {
+            color: #3a86ff;
+            cursor: pointer;
+        }
+
+        /* Dynamic hover effects for text content */
+        i:hover {
+            color: #ff006e;
+            transition: color 0.3s ease-in-out;
+        }
+
+        b:hover {
+            color: #8338ec;
+            transition: color 0.3s ease-in-out;
+        }
+
+        /* Responsive Design */
+        @media (max-width: 600px) {
+            h2 {
+                font-size: 2rem;
+            }
+
+            pre {
+                padding: 15px;
+                font-size: 1rem;
+            }
+
+            h3 {
+                font-size: 1.3rem;
+            }
+        }
+    </style>
 </head>
 <body>
     <h2>Rupali's Hobbies!</h2>
     <pre>
-<h3>Coding</h3><i><b>I have a passion for coding and enjoy learning new programming languages and techniques to enhance my skills.</i></b>
-<h3>Continuous Learning</h3> <i><b>I love exploring new topics and expanding my knowledge in various fields, whether it’s technology, science, or art.</b></i>
-<h3>Walking and Networking</h3><b><i>I enjoy walking, which allows me to reflect and brainstorm ideas. I also love interacting with new people, exchanging experiences, and building connections.</b></i>
-<h3>Cooking</h3> <b><i>Cooking is one of my favorite pastimes. I love experimenting with recipes and flavors, which provides a creative outlet and a way to share joy with others.</b></i>
-<h3>Music </h3><b><i>I am interested in learning music, whether it’s playing an instrument or understanding music theory, as it enriches my life and allows for creative expression.</b></i></pre>
+<h3>Coding</h3><i><b>I have a passion for coding and <br>enjoy learning new programming languages and <br>techniques to enhance my skills.</i></b>
+<h3>Continuous Learning</h3> <i><b>I love exploring <br> new topics and expanding my knowledge in <br> various fields,<br> whether it’s technology, science, or art.</b></i>
+<h3>Walking and Networking</h3><b><i>I enjoy walking,<br>which allows me to reflect and brainstorm <br>ideas. I also love interacting with new people, <br>exchanging experiences, and building <br>connections.</b></i>
+<h3>Cooking</h3> <b><i>Cooking is one of my favorite<br> pastimes. I love experimenting with recipes<br> and flavors, which provides a creative outlet and<br> a way to share joy with others.</b></i>
+<h3>Music </h3><b><i>I am interested in learning music, <br>whether it’s playing an instrument or understanding <br>music theory, as it enriches my life and allows <br>for creative expression.</b></i></pre>
 </body>
 </html>
